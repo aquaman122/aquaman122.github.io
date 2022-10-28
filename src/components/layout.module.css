@@ -1,25 +1,126 @@
 .container {
-  margin: auto;
-  max-width: 500px;
-  font-family: sans-serif;
-}
-.heading {
-  color: rebeccapurple;
-}
-.nav-links {
-  display: flex;
-  list-style: none;
-  padding-left: 0;
-}
-.nav-link-item {
-  padding-right: 2rem;
-}
-.nav-link-text {
+  background-color: #A0A0A0;
   color: black;
 }
-.site-title {
-  font-size: 3rem;
-  color: gray;
-  font-weight: 700;
-  margin: 3rem 0;
+.header {
+  width: 100%;
+  height: 10vh;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.9);
+}
+
+.headerBar {
+  padding: 2.5vh 3% 2.5vh 3%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.headerTitle {
+  font-size: 44px;
+  display: flex;
+  align-items: center;
+}
+
+.headerMenu {
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.headerLinks {
+  color: black;
+  margin-left: 10px;
+}
+.headerLinks:hover {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.darkMode {
+  padding: 14px;
+  border-radius: 50%;
+  background-color: black;
+  margin-left: 10px;
+}
+.darkMode:hover {
+  transform: scale(0.8);
+}
+
+.pageWrapper {
+  display: flex;
+  justify-content: center;
+  background-color: #A0A0A0;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+}
+
+.styleContent {
+  margin: 10px;
+  min-height: 5vh;
+  display: flex;
+  flex-direction: column;
+  color: black;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.styleContentName {
+  font-size: 24px;
+  margin: 24px 43px 0px 24px;
+}
+
+.styleSubInfo {
+  margin: 16px 28px 16px 28px;
+  font-size: 20px;
+}
+.categoryDate {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.styleTagList {
+  display: flex;
+}
+.styleTag {
+  padding: 5px;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+.sidebar{
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.buttonWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.filterClearBtn {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 20px;
+  font-size: 18px;
+}
+.categoryWrapper {
+
+}
+.sideCategory {
+  display: flex;
+}
+.sideCategoryTitle {
+
+}
+.sideSubCategory {
+
+}
+.sideSubCategoryComponent {
+
+}
+.sideCount {
+
 }

@@ -1,23 +1,17 @@
 import * as React from "react";
-import { StaticImage } from 'gatsby-plugin-image';
 import Layout from '../components/layout';
-import Seo from '../components/seo';
 
 const IndexPage = () => {
   return (
     <>
-      <Layout pageTitle="Home Page">
-        <p>I'm 어쩌구 저쩌구</p>
-        <StaticImage
-          alt="Clifford, a reddish-brown pitbull, posing on a couch and looking stoically at the camera"
-          src="https://pbs.twimg.com/media/E1oMV3QVgAIr1NT?format=jpg&name=large"
-        />
+      <Layout>
+
       </Layout>
     </>
   )
 }
 
-export const Head = () => <Seo title="Home Page" />
+export const Head = () => <title><h2>hh</h2></title>
 
 export default IndexPage
 
